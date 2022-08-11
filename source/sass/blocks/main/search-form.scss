@@ -6,38 +6,7 @@
   background-size: auto 302px;
   background-repeat: no-repeat;
 
-// .search-form__container{
-//   position: relative;
 
-
-//   &__container::before{
-//     position: absolute;
-//     content: "";
-//     width: 320px;
-//     height: 302px;
-//     left: 50%;
-//     top: 0;
-//     transform: translateX(-50%);
-//     background-color: rgba(104, 183, 56, 0.85);
-//     background-repeat: no-repeat;
-
-
-//   }
-
-//   &__container::after{
-//     position: absolute;
-//     content: "";
-//     width: 320px;
-//     height: 302px;
-//     left: 50%;
-//     top: 0;
-//     transform: translateX(-50%);
-//     background-image: url("../img/index-background-desktop.png");
-//     background-repeat: no-repeat;
-
-//   }
-
-// }
     &__title{
       text-align: center;
       color: #FFFFFF;

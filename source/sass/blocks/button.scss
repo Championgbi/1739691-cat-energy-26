@@ -1,4 +1,4 @@
-.button{
+.button {
   color: #FFFFFF;
   padding: 10px 0;
   text-transform: uppercase;
@@ -11,9 +11,10 @@
   font-weight: inherit;
   font-size: 16px;
   line-height: 20px;
-}
 
-.button--gray{
-  background-color: #F2F2F2;
-  color: #444444;
+  &--gray {
+    background-color: #F2F2F2;
+    color: #444444;
+  }
+
 }
