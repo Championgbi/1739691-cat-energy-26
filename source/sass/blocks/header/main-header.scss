@@ -1,4 +1,6 @@
-.main-header {}
+.main-header {
+  position: relative;
+}
 
 .main-header__wrapper {
   display: flex;
@@ -10,4 +12,15 @@
 
 .main-header__logo {
   display: block;
+}
+
+@media (min-width: $tablet-width) {
+
+  .main-header {
+    position: static;
+  }
+
+  .main-header__wrapper{
+    padding: 24px 0;
+  }
 }

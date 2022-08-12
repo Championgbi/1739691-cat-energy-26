@@ -1,9 +1,9 @@
 .button {
-  color: #FFFFFF;
+  color: $white;
   padding: 10px 0;
   text-transform: uppercase;
   text-align: center;
-  background-color: #68B738;
+  background-color: $basic-green;
   border: none;
   cursor: pointer;
   text-decoration: none;
@@ -13,8 +13,8 @@
   line-height: 20px;
 
   &--gray {
-    background-color: #F2F2F2;
-    color: #444444;
+    background-color: $basic-gray;
+    color: $special-dark-gray;
   }
 
 }
